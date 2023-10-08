@@ -1,5 +1,12 @@
 name: Renovate
 on:
+  push:
+    # Also run on main branch to make cache available
+    branches:
+      - main
+    paths:
+      - 'renovate.json'
+      - '.github/workflows/renovate.yaml'
   pull_request:
     paths:
       - 'renovate.json'
