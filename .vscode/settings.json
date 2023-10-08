@@ -1,0 +1,6 @@
+{
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "jest.jestCommandLine": "node_modules/.bin/jest --config jest.config.ts"
+}
