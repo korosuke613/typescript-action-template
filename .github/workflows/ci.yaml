@@ -27,13 +27,9 @@ jobs:
         id: npm-ci
         run: npm ci
 
-      - name: Check Format
+      - name: Check
         id: npm-format-check
-        run: npm run format:check
-
-      - name: Lint
-        id: npm-lint
-        run: npm run lint
+        run: npm run ci
 
       - name: Test
         id: npm-ci-test

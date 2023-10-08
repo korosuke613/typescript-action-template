@@ -1,4 +1,4 @@
-name: release-please (package)
+name: post-release-please
 
 on:
   pull_request:
