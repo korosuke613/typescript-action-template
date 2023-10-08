@@ -7,6 +7,13 @@ on:
       - 'releases/*'
 
 jobs:
+  actionlint:
+    name: actionlint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: reviewdog/action-actionlint@v1
+
   test-typescript:
     name: TypeScript Tests
     runs-on: ubuntu-latest

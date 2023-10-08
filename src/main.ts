@@ -9,7 +9,7 @@ export async function run(): Promise<void> {
   try {
     const ms: string = core.getInput("milliseconds");
 
-    core.info("Hello world!");
+    core.info("Hello world!!");
 
     // Debug logs are only output if the `ACTIONS_STEP_DEBUG` secret is true
     core.debug(`Waiting ${ms} milliseconds ...`);
