@@ -9,7 +9,7 @@ jobs:
   dry-run:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: cybozu/renovate-dry-run-action@v1
+      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+      - uses: cybozu/renovate-dry-run-action@63557d78fa42104865120021dd20c7758a1f8511 # v1
         with:
           config-file: renovate.json
