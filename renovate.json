@@ -7,7 +7,17 @@
     ":enableVulnerabilityAlertsWithLabel(security)",
     "schedule:weekly"
   ],
+  "ignorePresets": [
+    "helpers:pinGitHubActionDigests"
+  ],
   "packageRules": [
+    {
+      "matchDepTypes": [
+        "action"
+      ],
+      "excludePackagePatterns": ["^actions"],
+      "pinDigests": true
+    },
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
@@ -18,12 +28,6 @@
       "matchManagers": ["npm"],
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true
-    },
-    {
-      "matchManagers": ["github-actions"],
-      "matchUpdateTypes": ["minor", "patch"],
-      "matchPackagePatterns": ["^actions/"],
       "automerge": true
     }
   ]

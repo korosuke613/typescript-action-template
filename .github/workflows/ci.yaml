@@ -11,7 +11,7 @@ jobs:
     name: actionlint
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+      - uses: actions/checkout@v4
       - uses: reviewdog/action-actionlint@82693e9e3b239f213108d6e412506f8b54003586 # v1
 
   test-typescript:
@@ -21,11 +21,11 @@ jobs:
     steps:
       - name: Checkout
         id: checkout
-        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
         id: setup-node
-        uses: actions/setup-node@5e21ff4d9bc1a8cf6de233a3057d20ec6b3fb69d # v3
+        uses: actions/setup-node@v3
         with:
           node-version: 18
           cache: npm
@@ -49,7 +49,7 @@ jobs:
     steps:
       - name: Checkout
         id: checkout
-        uses: actions/checkout@8ade135a41bc03ea155e62e844d188df1ea18608 # v4
+        uses: actions/checkout@v4
 
       - name: Test Local Action
         id: test-action
