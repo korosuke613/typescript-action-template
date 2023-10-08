@@ -2,7 +2,7 @@ name: post-release-please
 
 on:
   pull_request:
-    types: [opened, reopened, labeled, synchronize]
+    types: [reopened, labeled, synchronize]
     branches:
       - main
 
