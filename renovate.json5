@@ -1,0 +1,14 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "github>korosuke613/renovate-config:npm-automerge-deps-minor-patch.json5"
+  ],
+  packageRules: [
+    {
+      matchManagers: ["npm"],
+      matchDepTypes: ["dependencies"],
+      matchUpdateTypes: ["major"],
+      automerge: true,
+    },
+  ],
+}
