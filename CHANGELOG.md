@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.4](https://github.com/korosuke613/typescript-action-template/compare/v0.1.3...v0.1.4) (2024-04-21)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v5.4.5 ([ec982d1](https://github.com/korosuke613/typescript-action-template/commit/ec982d1e24e6842e9506c01567cac125c4bedd1b))
+
 ## [0.1.3](https://github.com/korosuke613/typescript-action-template/compare/v0.1.2...v0.1.3) (2024-03-24)
 
 

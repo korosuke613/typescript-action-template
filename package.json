@@ -1,7 +1,7 @@
 {
   "name": "typescript-action",
   "description": "GitHub Actions TypeScript template",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": "FUTA HIRAKOBA <korosuke613613@gmail.com>",
   "private": true,
   "homepage": "https://github.com/actions/typescript-action",
