@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: reviewdog/action-actionlint@9d8b58041eed1373f173e91b9a3db5a844197236 # v1.44.0
+      - uses: reviewdog/action-actionlint@4797143fa54b2306fe78646b48cfa10395506635 # v1.47.0
 
   test-typescript:
     name: TypeScript Tests
