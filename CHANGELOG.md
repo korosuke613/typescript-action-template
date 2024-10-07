@@ -1,5 +1,15 @@
 # Changelog
 
+## [0.1.5](https://github.com/korosuke613/typescript-action-template/compare/v0.1.4...v0.1.5) (2024-10-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @vercel/ncc to v0.38.2 ([8e61175](https://github.com/korosuke613/typescript-action-template/commit/8e611750a44911a3d88aeaaf287d0e92dd2d6e75))
+* **deps:** update dependency typescript to v5.5.2 ([01f94ec](https://github.com/korosuke613/typescript-action-template/commit/01f94ec78e810c35312ba72979f697028aa0d40c))
+* **deps:** update dependency typescript to v5.5.3 ([9d7fda8](https://github.com/korosuke613/typescript-action-template/commit/9d7fda81a59469078e90aeae729b14f220bf6152))
+* **deps:** update dependency typescript to v5.5.4 ([030b40b](https://github.com/korosuke613/typescript-action-template/commit/030b40b085fe2892c2d3075ef6d3f9fec2564a81))
+
 ## [0.1.4](https://github.com/korosuke613/typescript-action-template/compare/v0.1.3...v0.1.4) (2024-04-21)
 
 
