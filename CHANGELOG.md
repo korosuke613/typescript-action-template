@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.1.7](https://github.com/korosuke613/typescript-action-template/compare/v0.1.6...v0.1.7) (2025-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency typescript to v5.7.3 ([#117](https://github.com/korosuke613/typescript-action-template/issues/117)) ([f9e5852](https://github.com/korosuke613/typescript-action-template/commit/f9e5852de9ce658c7c57949fc4cde1c2f7ebe8a8))
+
 ## [0.1.6](https://github.com/korosuke613/typescript-action-template/compare/v0.1.5...v0.1.6) (2025-01-14)
 
 
